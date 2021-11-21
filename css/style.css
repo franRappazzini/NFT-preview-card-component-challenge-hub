@@ -115,4 +115,13 @@ body .nft__card .creator__data p a {
 body .nft__card .creator__data p a:hover {
   color: #00fff7;
 }
+
+@media only screen and (max-width: 768px) {
+  body .nft__card .img__equilibrium:hover {
+    pointer-events: none;
+  }
+  body .nft__card .card__data h3:hover {
+    pointer-events: none;
+  }
+}
 /*# sourceMappingURL=style.css.map */
