@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+body {
+  background-color: #0d192b;
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.5px;
+}
+
+body .nft__card {
+  background-color: #14253d;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  width: min-content;
+  margin-top: 3rem;
+}
+
+body .nft__card .img__equilibrium {
+  background-image: url(../img/image-equilibrium.jpg);
+  background-size: cover;
+  width: 19rem;
+  height: 19rem;
+  border-radius: 10px;
+  margin: 1rem;
+  position: relative;
+}
+
+body .nft__card .img__equilibrium:hover {
+  cursor: pointer;
+}
+
+body .nft__card .img__equilibrium:hover .filter__hover {
+  background-image: url(../img/icon-view.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(0, 255, 247, 0.548);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+body .nft__card .card__data {
+  margin: 1rem 1rem 0 1rem;
+}
+
+body .nft__card .card__data h3 {
+  color: white;
+  margin: 0;
+  width: fit-content;
+}
+
+body .nft__card .card__data h3:hover {
+  cursor: pointer;
+  color: #00fff7;
+}
+
+body .nft__card .card__data .description {
+  color: #8bacda;
+  line-height: 1.5;
+}
+
+body .nft__card .card__data .data__contain {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #2f415b;
+}
+
+body .nft__card .card__data .data__contain .eth__contain {
+  display: flex;
+  align-items: center;
+}
+
+body .nft__card .card__data .data__contain .eth__contain p {
+  font-weight: 600;
+  color: #00fff7;
+  margin: 0 0 0 0.5rem;
+}
+
+body .nft__card .card__data .data__contain .left-view__contain {
+  display: flex;
+  align-items: center;
+}
+
+body .nft__card .card__data .data__contain .left-view__contain p {
+  color: #8bacda;
+  margin: 0 0 0 0.5rem;
+}
+
+body .nft__card .creator__data {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+}
+
+body .nft__card .creator__data img {
+  border: 1px white solid;
+  border-radius: 20px;
+}
+
+body .nft__card .creator__data p {
+  color: #8bacda;
+  margin: 0 0 0 1rem;
+}
+
+body .nft__card .creator__data p a {
+  color: white;
+  text-decoration: none;
+}
+
+body .nft__card .creator__data p a:hover {
+  color: #00fff7;
+}
+/*# sourceMappingURL=style.css.map */
